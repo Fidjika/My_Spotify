@@ -1,0 +1,57 @@
+.search_1 {
+    display: flex;
+    width: 910px;
+    height: 939px;
+}
+
+.searchbar {
+    display: flex;
+    margin-top: -230px;
+    margin-left: 140%;
+}
+
+.searchbar_style {
+    display: flex;
+    position: absolute;
+    border: 1px solid;
+    height: 2rem;
+    width: 23rem;
+    border-radius: 35px;
+    padding: 3px;
+    background-color: #ffffff;
+}
+
+.spotify_search-logo {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    float: left;
+    padding-right: 20px;
+    margin-top: 8px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.album {
+    display: flex;
+    position: relative;
+    margin-top: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 162px;
+    height: 160px;
+    margin-right: 20px;
+    background-color: #ffffff0e;
+}
+
+.album:hover {
+    background-color: #ffffff3a;
+}
+
+.search_1 {
+    display: flex;
+}
+
+p {
+    cursor: default;
+}

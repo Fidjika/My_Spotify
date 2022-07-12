@@ -1,0 +1,106 @@
+#root {
+    background: #000000ef;
+    margin: -8px;
+  }
+
+.nav {
+    background-color: #000000;
+    text-align: left;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 340px;
+    height: 967px;
+}
+
+.spotify-nav {
+    color: #ffffff86;
+    list-style-type: none;
+    font-size: 1.4em;
+    padding: 23px;
+}
+
+.titre {
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.3em;
+    margin-left: 100px;
+}
+
+.spotify-logo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 38px;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff86;
+    font-family: 'Roboto', sans-serif;
+}
+
+.spotify-home {
+    width: 25px;
+    height: 25px;
+    float: left;
+    padding-right: 10px;
+    margin-top: -2px;
+}
+
+.spotify-search {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    float: left;
+    padding-right: 10px;
+}
+
+.spotify-genre {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    float: left;
+    padding-right: 10px;
+}
+
+.home {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.home:hover {
+    color: #ffffff;
+    transition: all 0.8s ease-out;
+}
+
+.search {
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.search:hover {
+    color: #ffffff;
+    transition: all 0.8s ease-out;
+}
+
+.genre {
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.genre:hover {
+    color: #ffffff;
+    transition: all 0.8s ease-out;
+}
+
+p {
+    opacity: 0;
+}
